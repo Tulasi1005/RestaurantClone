@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+
+    <title>Olive Bar & Kitchen Pvt Ltd</title>
+
+    <style>
+
+      .nav-link:hover{
+        text-decoration: underline;
+      }
+      
+
+      .para{
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        font-size: 18px;
+        font-weight: 500;
+      }
+      @media only screen and (min-width:961px){
+        .navbar{
+          margin-left:350px;
+        }
+      }
+
+      @media only screen and (max-width:961px){
+        .navbar-nav{
+          background-color: #506446;
+        }
+        .navbar-toggler-icon{
+          color: antiquewhite;
+        }
+      }
+
+      .dropdown-menu{
+        background-color: #506446;
+        
+      }
+
+      .textline{
+        text-decoration: none;
+      }
+      
+      /* @media only screen and (min-width:320px){
+        .navbar-nav{
+          position: absolute;
+          left: 100px;
+        }
+      } */
+
+    </style>
+  </head>
+  <body>
+
+    <header>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+          <div class="carousel slide" id="mycar" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="image-fluid" src="images/h1.jpg" alt="" height="600" width="100%"></img>
+                <!-- <div class="carousel-caption d-flex justify-content-center">
+                  <h4>Scroll Down to See</h4>
+                </div> -->
+              </div>
+  
+              <div class="carousel-item">
+                <img class="image-fluid" src="images/h2.jpg" alt="" height="600" width="100%"></img>
+                <div class="carousel-caption">
+                  <h4></h4>
+                </div>
+              </div>
+  
+              <div class="carousel-item">
+                <img class="image-fluid" src="images/h3.webp" alt="" height="600" width="100%"></img>
+                <div class="carousel-caption">
+                  <h4></h4>
+                </div>
+              </div>
+  
+              <div class="carousel-item">
+                <img class="image-fluid" src="images/h4.webp" alt="" height="600" width="100%"></img>
+                <div class="carousel-caption">
+                  <h4></h4>
+                </div>
+              </div>
+  
+              <div class="carousel-item">
+                <img class="image-fluid" src="images/h5.jpg" alt="" height="600" width="100%"></img>
+                <div class="carousel-caption">
+                  <h4></h4>
+                </div>
+              </div>
+  
+              <div class="carousel-item">
+                <img class="image-fluid" src="images/h6.jpg" alt="" height="600" width="100%"></img>
+                <div class="carousel-caption">
+                  <h4></h4>
+                </div>
+              </div>
+  
+              <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#mycar">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+  
+              <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#mycar">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="text-white">Scroll to set off on a culinary adventure</h3>
+          </div>
+        </div>
+        
+        
+      </div> -->
+      
+      <div class="container-fluid" style="position: absolute; top: 5px; left: 0px; z-index: 10;">
+      <nav class="navbar navbar-expand-md navbar-dark">
+        
+          <a href="" class="navbar-brand">
+            <img src="images/logo.png" alt="">
+          </a>
+
+          <div class="toggle-but">
+            
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          </div>
+
+          <div class="collapse navbar-collapse" id="mynav">
+          <ul class="navbar-nav">
+            <li class="nav-item p-3">
+              <a href="index.html" class="nav-link active text-white">Home</a>
+            </li>
+            <li class="nav-item p-3">
+              <div class="dropdown">
+                <a href="" class="nav-link text-white dropdown-toggle"  data-bs-toggle="dropdown">
+                  Brands
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="p-2"><a class="textline text-white" href="hyd.html">Olive Bar & Kitchen, Hyderabad</a></li>
+                  <li class="p-2"><a class="textline text-white" href="del.html">Olive Bar & Kitchen, New Delhi</a></li>
+                  <li class="p-2"><a class="textline text-white" href="mum.html">Olive Bar & Kitchen, Mumbai</a></li>
+                  <li class="p-2"><a class="textline text-white" href="goa.html">Olive Bar & Kitchen, Goa</a></li>
+                  <li class="p-2"><a class="textline text-white" href="ben.html">Olive Bar & Kitchen, Bangalore</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="nav-item p-3">
+              <div class="dropdown">
+                <a href="" class="nav-link text-white dropdown-toggle"  data-bs-toggle="dropdown">Management</a>
+                <ul class="dropdown-menu">
+                  <li class="p-2"><a class="textline text-white" href="management.html#m1">AD Singh</a></li>
+                  <li class="p-2"><a class="textline text-white" href="management.html#m2">Sabina Singh</a></li>
+                  <li class="p-2"><a class="textline text-white" href="management.html#m3">Viraj Churi</a></li>
+                  <li class="p-2"><a class="textline text-white" href="management.html#m4">Ashwin D’souza</a></li>
+                  <li class="p-2"><a class="textline text-white" href="management.html#m5">Priyanka Dod</a></li>
+                  
+                </ul>
+              </div>
+
+
+            </li>
+
+            <li class="nav-item p-3">
+              <a href="career.html" class="nav-link text-white">Careers</a>
+            </li>
+            <li class="nav-item p-3">
+              <a href="franchise.html" class="nav-link text-white">Franchise</a>
+            </li>
+            <li class="nav-item p-3">
+              <a href="contact.html" class="nav-link text-white">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      </nav>
+    </header>
+
+    
+
+    <div>
+      <div class="container-fluid pt-5 pl-0">
+        <div class="row  pl-0 pt-5 pb-2">
+          <div class="col-12">
+            <p class="para">
+              Olive, the first white walled restaurant opened by restaurateur
+              couple AD and Sabina Singh, nestled into what was then Bombay in
+              November 2000. A rustic hideaway, Olive became the place where
+              good food, drink, conversation and laughter flowed.
+            </p>
+          </div>
+        </div>
+
+        <div class="row pt-0 pl-0 pb-2">
+          <div class="col-12">
+            <p class="para">
+              The Olive Group has grown! Olive Qutub, Olive Beach, Olive Bistro
+              and Bar, SodaBottleOpenerWala, Guppy and the Poke Bar, Hello
+              Guppy, The Fatty Bao, Monkey Bar, Toast & Tonic, Olive Goa, The
+              Grammar Room, Serai, Ek Bar, The Hoppery, Olly, Giggle Water,
+              Olive Bandra and our newest little member, Bottlenekk. 
+            </p>
+          </div>
+        </div>
+
+        <div class="row pt-0 pl-0 pb-2">
+          <div class="col-12">
+            <p class="para">Onwards and upwards!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <footer>
+      <div class="footer">
+
+        <div class="container-fluid d-flex justify-content-end">
+          <div class="row">
+            <div class="col-md-12">
+              <p>COPYRIGHT © OLIVE BAR AND KITCHEN PVT. LTD. ALL RIGHTS RESERVED.</p>
+            </div>
+           </div>
+          
+         
+          <div class="row">
+            <div class="col-md-12">
+              <p>OWNED BY OLIVE BAR AND KITCHEN PVT. LTD.</p>
+            </div>
+            
+          </div>
+          
+        </div>
+        
+        
+        
+
+      </div>
+    </footer>
+  </body>
+</html>
